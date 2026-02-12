@@ -43,14 +43,23 @@ br: Produce un salto de línea.
 Un atributo HTML es una propiedad o información adicional definida dentro de la etiqueta de apertura de un elemento (ej. <tag atributo="valor">) que modifica su comportamiento, apariencia o funcionalidad.
 
 Atributos HTML más comunes:
+
 class: Asigna una o más clases CSS para dar estilo al elemento.
+
 id: Identifica de forma única un elemento en la página.
+
 href: Especifica la URL destino en enlaces (<a>).
+
 src: Define la ruta de origen para imágenes (<img>) o scripts.
+
 alt: Proporciona texto alternativo para imágenes.
+
 style: Permite añadir estilos CSS directamente en el elemento.
+
 title: Muestra información extra al pasar el ratón sobre el elemento.
+
 lang: Especifica el idioma del contenido.
+
 target: Indica dónde abrir un enlace (ej. _blank para nueva pestaña).
 
 4.	¿Qué es CSS y cómo se utiliza para el diseño web?
@@ -78,11 +87,17 @@ Alineación y Posición: text-align, display (flex, grid, block), position.
 Es un patrón utilizado para seleccionar y asignar propiedades de estilo a uno o varios elementos HTML específicos en una página web. Actúa como el puente entre la estructura HTML y la apariencia definida en las hojas de estilo. 
 
 Selector Universal (*): Apunta a todos los elementos del documento.
+
 Selector de Tipo/Etiqueta (p, div, h1): Selecciona elementos basados en el nombre de la etiqueta HTML.
+
 Selector de Clase (.nombre-clase): Selecciona elementos que tienen un atributo class específico.
+
 Selector de ID (#nombre-id): Selecciona un único elemento basado en su atributo id único.
+
 Selector de Atributo ([attr=valor]): Apunta a elementos que contienen un atributo específico.
+
 Selectores Combinadores: Definen relaciones entre elementos (descendiente div p, hijo div > p, hermano adyacente div + p, hermano general div ~ p).
+
 Pseudo-clases y Pseudo-elementos: Seleccionan elementos basados en estados (:hover, :visited) o partes específicas de un elemento (::before).
 
 7.	¿Qué es JavaScript y cómo añade la interactividad a las páginas web?
@@ -91,9 +106,13 @@ Es un lenguaje de programación interpretado, orientado a objetos y dinámico, p
 
 ¿Cómo añade interactividad a las páginas web?
 Manipulación del DOM (Document Object Model): JavaScript puede cambiar, añadir o eliminar elementos HTML y estilos CSS dinámicamente.
+
 Manejo de Eventos: Reacciona a acciones del usuario como clics de botones, movimientos del ratón, envíos de formularios o pulsaciones de teclado.
+
 Actualizaciones en tiempo real (AJAX/Fetch): Permite enviar y recibir datos de un servidor en segundo plano, actualizando partes de la página sin recargarla (ej. redes sociales o mapas).
+
 Animaciones y Efectos Visuales: Crea menús desplegables, carruseles de imágenes, modales y juegos 2D/3D directamente en el navegador.
+
 Validación de Formularios: Comprueba que los datos introducidos sean correctos antes de enviarlos al servidor.
 
 8.	¿Cuáles son los tipos de datos primitivos en Javascript?
@@ -101,11 +120,17 @@ Validación de Formularios: Comprueba que los datos introducidos sean correctos 
 Los datos primitivos son aquellos que están definidos de forma básica en el lenguaje y, lo más importante, son inmutables (su valor no se puede cambiar, aunque la variable que los contiene sí).
 
 string: Representa datos textuales, por ejemplo, 'Hola' o "Mundo".
+
 number: Representa valores numéricos, incluyendo enteros y números de coma flotante (como \(3.14\) o \(42\)).
+
 boolean: Representa un valor lógico, true (verdadero) o false (falso).
+
 null: Denota un valor nulo o la ausencia intencional de valor.
+
 undefined: Representa una variable que ha sido declarada pero aún no se le ha asignado un valor.
+
 bigint: Utilizado para representar números enteros muy grandes que superan el límite seguro de number.
+
 symbol: Representa un identificador único.
 
 9.	¿Cómo funcionan las estructuras de control de flujo como if, else, switch y bucles en Javascript?
@@ -133,12 +158,17 @@ El panel Elements es la herramienta más utilizada de las DevTools. Es el lugar 
 El panel "Console" en las herramientas de desarrollo del navegador es una herramienta fundamental para depurar, probar e interactuar con sitios web en tiempo real. Permite visualizar errores, advertencias y registros (logs) de JavaScript, ejecutar código JS directamente sobre la página actual y manipular el DOM, siendo crucial para el desarrollo frontend.
 
 ¿Cómo abrirla?
+
 En Windows / Linux
+
 Presiona: F12 O Ctrl + Shift + I
+
 Luego haz clic en la pestaña: Console
+
 También puedes abrir directamente: Ctrl + Shift + J
 
 ¿Para qué sirve?
+
 Sirve principalmente para detectar problemas y probar código sin modificar el archivo HTML.
 
 En desarrollo web, la consola te permite:
