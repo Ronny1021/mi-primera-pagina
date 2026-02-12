@@ -11,8 +11,8 @@ HyperText Markup Language (Lenguaje de Marcado de Hipertexto), es el código est
 Una etiqueta HTML es un código especial, encerrado entre corchetes (< >), que estructura y define cómo el navegador debe interpretar y mostrar el contenido (texto, imágenes, enlaces) en una página web.
 
 Etiquetas HTML más comunes:
-<html>: Define la raíz del documento.
-<head>: Contiene metadatos, título y enlaces a estilos.
+html: Define la raíz del documento.
+head: Contiene metadatos, título y enlaces a estilos.
 <title>: Establece el título de la página en la pestaña del navegador.
 <body>: Contiene todo el contenido visible de la web.
 <h1> a <h6>: Definen encabezados, siendo <h1> el de mayor importancia.
