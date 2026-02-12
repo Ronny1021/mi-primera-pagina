@@ -62,10 +62,15 @@ Cascading Style Sheets (Hojas de Estilo en Cascada), es el lenguaje de diseño u
 Una propiedad CSS es un parámetro o aspecto específico (como color, tamaño o posición) que se define dentro de una regla para aplicar estilo a elementos HTML.
 
 Propiedades CSS más comunes:
+
 Color y Fondo: color (color de texto), background-color (fondo).
+
 Tipografía: font-family, font-size, font-weight, line-height.
+
 Modelo de Caja: width (ancho), height (alto), margin (espacio exterior), padding (espacio interior).
+
 Bordes: border, border-radius (esquinas redondeadas).
+
 Alineación y Posición: text-align, display (flex, grid, block), position.
 
 6.	¿Qué es un selector en CSS y cuales tipos existen?
