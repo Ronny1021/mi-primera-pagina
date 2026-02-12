@@ -20,7 +20,7 @@ title: Establece el título de la página en la pestaña del navegador.
 
 body: Contiene todo el contenido visible de la web.
 
-h1 a h6: Definen encabezados, siendo <h1> el de mayor importancia.
+h1 a h6: Definen encabezados, siendo h1 el de mayor importancia.
 
 p: Define un párrafo de texto.
 
