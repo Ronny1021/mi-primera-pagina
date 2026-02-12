@@ -34,7 +34,7 @@ span: Define contenido en línea.
 
 ul, ol, li: Crean listas desordenadas, ordenadas y elementos de lista, respectivamente.
             
-strong: Indica texto importante (generalmente negrita).
+strong: Indica texto importante generalmente negrita.
             
 br: Produce un salto de línea.
 
